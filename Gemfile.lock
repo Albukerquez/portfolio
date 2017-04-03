@@ -1,0 +1,458 @@
+GIT
+  remote: git://github.com/gambala/ckeditor.git
+  revision: 1a0db76ca95b2547de8b4b13097e2d782f1922e3
+  specs:
+    ckeditor (4.2.2)
+      cocaine
+      orm_adapter (~> 0.5.0)
+
+GIT
+  remote: git://github.com/gambala/clearance.git
+  revision: 717e54bac50d9dce1b33e241d7dd5e0841333bca
+  specs:
+    clearance (1.16.0)
+      bcrypt
+      email_validator (~> 1.4)
+      rails (>= 3.1)
+      slim
+
+GIT
+  remote: git://github.com/nex3/rb-inotify.git
+  revision: bbb243149fb9825da923b2a8116cdb319af82a76
+  specs:
+    rb-inotify (0.9.8)
+      ffi (>= 0.5.0)
+
+GIT
+  remote: git://github.com/sass/sassc-rails.git
+  revision: 63acddc25d527dedc0eda19afc84c56198c745ff
+  specs:
+    sassc-rails (1.3.0)
+      railties (>= 4.0.0)
+      sass
+      sassc (~> 1.9)
+      sprockets (> 2.11)
+      sprockets-rails
+      tilt
+
+GEM
+  remote: https://rubygems.org/
+  remote: https://rails-assets.org/
+  specs:
+    aasm (4.12.0)
+      concurrent-ruby (~> 1.0)
+    actioncable (5.0.2)
+      actionpack (= 5.0.2)
+      nio4r (>= 1.2, < 3.0)
+      websocket-driver (~> 0.6.1)
+    actionmailer (5.0.2)
+      actionpack (= 5.0.2)
+      actionview (= 5.0.2)
+      activejob (= 5.0.2)
+      mail (~> 2.5, >= 2.5.4)
+      rails-dom-testing (~> 2.0)
+    actionpack (5.0.2)
+      actionview (= 5.0.2)
+      activesupport (= 5.0.2)
+      rack (~> 2.0)
+      rack-test (~> 0.6.3)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.0, >= 1.0.2)
+    actionview (5.0.2)
+      activesupport (= 5.0.2)
+      builder (~> 3.1)
+      erubis (~> 2.7.0)
+      rails-dom-testing (~> 2.0)
+      rails-html-sanitizer (~> 1.0, >= 1.0.3)
+    activejob (5.0.2)
+      activesupport (= 5.0.2)
+      globalid (>= 0.3.6)
+    activemodel (5.0.2)
+      activesupport (= 5.0.2)
+    activerecord (5.0.2)
+      activemodel (= 5.0.2)
+      activesupport (= 5.0.2)
+      arel (~> 7.0)
+    activesupport (5.0.2)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    addressable (2.5.1)
+      public_suffix (~> 2.0, >= 2.0.2)
+    airbrussh (1.1.2)
+      sshkit (>= 1.6.1, != 1.7.0)
+    annotate (2.6.5)
+      activerecord (>= 2.3.0)
+      rake (>= 0.8.7)
+    arel (7.1.4)
+    ast (2.3.0)
+    autoprefixer-rails (6.7.7.1)
+      execjs
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
+    bcrypt (3.1.11)
+    bindex (0.5.0)
+    breakpoint (2.7.1)
+      sass (~> 3.3)
+      sassy-maps (< 1.0.0)
+    bugsnag (5.2.0)
+    builder (3.2.3)
+    bullet (5.5.1)
+      activesupport (>= 3.0.0)
+      uniform_notifier (~> 1.10.0)
+    bundler-audit (0.5.0)
+      bundler (~> 1.2)
+      thor (~> 0.18)
+    callsite (0.0.11)
+    capistrano (3.8.0)
+      airbrussh (>= 1.0.0)
+      i18n
+      rake (>= 10.0.0)
+      sshkit (>= 1.9.0)
+    capistrano-bundler (1.2.0)
+      capistrano (~> 3.1)
+      sshkit (~> 1.2)
+    capistrano-figaro-yml (1.0.5)
+      capistrano (~> 3.1)
+      sshkit (~> 1.2, >= 1.2.0)
+    capistrano-rails (1.2.3)
+      capistrano (~> 3.1)
+      capistrano-bundler (~> 1.1)
+    capistrano-rvm (0.1.2)
+      capistrano (~> 3.0)
+      sshkit (~> 1.2)
+    capistrano3-puma (3.1.0)
+      capistrano (~> 3.7)
+      capistrano-bundler
+      puma (~> 3.4)
+    carrierwave (1.0.0)
+      activemodel (>= 4.0.0)
+      activesupport (>= 4.0.0)
+      mime-types (>= 1.16)
+    climate_control (0.1.0)
+    cocaine (0.5.8)
+      climate_control (>= 0.0.3, < 1.0)
+    code_analyzer (0.4.7)
+      sexp_processor
+    codeclimate-engine-rb (0.4.0)
+      virtus (~> 1.0)
+    coderay (1.1.1)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
+    coffee-rails (4.2.1)
+      coffee-script (>= 2.2.0)
+      railties (>= 4.0.0, < 5.2.x)
+    coffee-script (2.4.1)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.12.2)
+    concurrent-ruby (1.0.5)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    em-websocket (0.5.1)
+      eventmachine (>= 0.12.9)
+      http_parser.rb (~> 0.6.0)
+    email_validator (1.6.0)
+      activemodel
+    equalizer (0.0.11)
+    erubis (2.7.0)
+    eventmachine (1.2.3)
+    execjs (2.7.0)
+    ffi (1.9.18)
+    figaro (1.1.1)
+      thor (~> 0.14)
+    flay (2.8.1)
+      erubis (~> 2.7.0)
+      path_expander (~> 1.0)
+      ruby_parser (~> 3.0)
+      sexp_processor (~> 4.0)
+    flog (4.6.1)
+      path_expander (~> 1.0)
+      ruby_parser (~> 3.1, > 3.1.0)
+      sexp_processor (~> 4.8)
+    formatador (0.2.5)
+    friendly_id (5.2.0)
+      activerecord (>= 4.0.0)
+    globalid (0.3.7)
+      activesupport (>= 4.1.0)
+    guard (2.14.1)
+      formatador (>= 0.2.4)
+      listen (>= 2.7, < 4.0)
+      lumberjack (~> 1.0)
+      nenv (~> 0.1)
+      notiffany (~> 0.0)
+      pry (>= 0.9.12)
+      shellany (~> 0.0)
+      thor (>= 0.18.1)
+    guard-bundler (2.1.0)
+      bundler (~> 1.0)
+      guard (~> 2.2)
+      guard-compat (~> 1.1)
+    guard-compat (1.2.1)
+    guard-livereload (2.5.2)
+      em-websocket (~> 0.5)
+      guard (~> 2.8)
+      guard-compat (~> 1.0)
+      multi_json (~> 1.8)
+    guard-puma (0.3.5)
+      guard (~> 2.14)
+      guard-compat (~> 1.2)
+      puma (~> 3.6)
+    http_parser.rb (0.6.0)
+    i18n (0.8.1)
+    ice_nine (0.11.2)
+    inch (0.7.1)
+      pry
+      sparkr (>= 0.2.0)
+      term-ansicolor
+      yard (~> 0.8.7.5)
+    jquery-rails (4.3.1)
+      rails-dom-testing (>= 1, < 3)
+      railties (>= 4.2.0)
+      thor (>= 0.14, < 2.0)
+    json (2.0.3)
+    launchy (2.4.3)
+      addressable (~> 2.3)
+    listen (3.0.8)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
+    loofah (2.0.3)
+      nokogiri (>= 1.5.9)
+    lumberjack (1.0.11)
+    mail (2.6.4)
+      mime-types (>= 1.16, < 4)
+    meta_request (0.4.0)
+      callsite (~> 0.0, >= 0.0.11)
+      rack-contrib (~> 1.1)
+      railties (>= 3.0.0, < 5.1.0)
+    method_source (0.8.2)
+    mime-types (3.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2016.0521)
+    mini_magick (4.7.0)
+    mini_portile2 (2.1.0)
+    minitest (5.10.1)
+    multi_json (1.12.1)
+    nenv (0.3.0)
+    net-scp (1.2.1)
+      net-ssh (>= 2.6.5)
+    net-ssh (4.1.0)
+    nio4r (2.0.0)
+    nokogiri (1.7.1)
+      mini_portile2 (~> 2.1.0)
+    notiffany (0.1.1)
+      nenv (~> 0.1)
+      shellany (~> 0.0)
+    orm_adapter (0.5.0)
+    parser (2.4.0.0)
+      ast (~> 2.2)
+    path_expander (1.0.1)
+    pg (0.20.0)
+    powerpack (0.1.1)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-rails (0.3.6)
+      pry (>= 0.10.4)
+    public_suffix (2.0.5)
+    puma (3.8.2)
+    rack (2.0.1)
+    rack-contrib (1.2.0)
+      rack (>= 0.9.1)
+    rack-livereload (0.3.16)
+      rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rails (5.0.2)
+      actioncable (= 5.0.2)
+      actionmailer (= 5.0.2)
+      actionpack (= 5.0.2)
+      actionview (= 5.0.2)
+      activejob (= 5.0.2)
+      activemodel (= 5.0.2)
+      activerecord (= 5.0.2)
+      activesupport (= 5.0.2)
+      bundler (>= 1.3.0, < 2.0)
+      railties (= 5.0.2)
+      sprockets-rails (>= 2.0.0)
+    rails-assets-jquery (3.2.1)
+    rails-assets-jquery-textcomplete (1.8.0)
+      rails-assets-jquery (>= 1.7.0)
+    rails-assets-normalize-css (6.0.0)
+    rails-dom-testing (2.0.2)
+      activesupport (>= 4.2.0, < 6.0)
+      nokogiri (~> 1.6)
+    rails-html-sanitizer (1.0.3)
+      loofah (~> 2.0)
+    rails-i18n (5.0.3)
+      i18n (~> 0.7)
+      railties (~> 5.0)
+    rails_best_practices (1.18.0)
+      activesupport
+      code_analyzer (>= 0.4.3)
+      erubis
+      i18n
+      json
+      require_all
+      ruby-progressbar
+    railties (5.0.2)
+      actionpack (= 5.0.2)
+      activesupport (= 5.0.2)
+      method_source
+      rake (>= 0.8.7)
+      thor (>= 0.18.1, < 2.0)
+    rainbow (2.2.1)
+    rake (12.0.0)
+    rb-fsevent (0.9.8)
+    reek (4.5.6)
+      codeclimate-engine-rb (~> 0.4.0)
+      parser (>= 2.3.1.2, < 2.5)
+      rainbow (~> 2.0)
+    require_all (1.4.0)
+    rubocop (0.48.0)
+      parser (>= 2.3.3.1, < 3.0)
+      powerpack (~> 0.1)
+      rainbow (>= 1.99.1, < 3.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (~> 1.0, >= 1.0.1)
+    ruby-progressbar (1.8.1)
+    ruby_parser (3.8.4)
+      sexp_processor (~> 4.1)
+    rubycritic (3.2.0)
+      flay (~> 2.8)
+      flog (~> 4.4)
+      launchy (= 2.4.3)
+      parser (= 2.4.0)
+      rainbow (~> 2.1)
+      reek (~> 4.4)
+      ruby_parser (~> 3.8)
+      virtus (~> 1.0)
+    sass (3.4.23)
+    sassc (1.11.2)
+      bundler
+      ffi (~> 1.9.6)
+      sass (>= 3.3.0)
+    sassy-maps (0.4.0)
+      sass (~> 3.3)
+    sexp_processor (4.8.0)
+    shellany (0.0.1)
+    slim (3.0.7)
+      temple (~> 0.7.6)
+      tilt (>= 1.3.3, < 2.1)
+    slop (3.6.0)
+    sparkr (0.4.1)
+    spring (2.0.1)
+      activesupport (>= 4.2)
+    spring-watcher-listen (2.0.1)
+      listen (>= 2.7, < 4.0)
+      spring (>= 1.2, < 3.0)
+    sprockets (3.7.1)
+      concurrent-ruby (~> 1.0)
+      rack (> 1, < 3)
+    sprockets-rails (3.2.0)
+      actionpack (>= 4.0)
+      activesupport (>= 4.0)
+      sprockets (>= 3.0.0)
+    sshkit (1.13.1)
+      net-scp (>= 1.1.2)
+      net-ssh (>= 2.8.0)
+    stlr (1.0.0)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
+    susy (2.2.12)
+      sass (>= 3.3.0, < 3.5)
+    temple (0.7.7)
+    term-ansicolor (1.5.0)
+      tins (~> 1.0)
+    thor (0.19.4)
+    thread_safe (0.3.6)
+    tilt (2.0.7)
+    tins (1.13.2)
+    traceroute (0.5.0)
+      rails (>= 3.0.0)
+    turbolinks (5.0.1)
+      turbolinks-source (~> 5)
+    turbolinks-source (5.0.0)
+    tzinfo (1.2.3)
+      thread_safe (~> 0.1)
+    uglifier (3.1.12)
+      execjs (>= 0.3.0, < 3)
+    unicode-display_width (1.1.3)
+    uniform_notifier (1.10.0)
+    virtus (1.0.5)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+      equalizer (~> 0.0, >= 0.0.9)
+    web-console (3.5.0)
+      actionview (>= 5.0)
+      activemodel (>= 5.0)
+      bindex (>= 0.4.0)
+      railties (>= 5.0)
+    websocket-driver (0.6.5)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.2)
+    yard (0.8.7.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  aasm
+  annotate
+  autoprefixer-rails
+  breakpoint
+  bugsnag
+  bullet
+  bundler-audit
+  capistrano
+  capistrano-bundler
+  capistrano-figaro-yml
+  capistrano-rails
+  capistrano-rvm
+  capistrano3-puma
+  carrierwave
+  ckeditor!
+  clearance!
+  coffee-rails
+  figaro
+  friendly_id
+  guard
+  guard-bundler
+  guard-livereload
+  guard-puma
+  inch
+  jquery-rails
+  listen
+  meta_request
+  mini_magick
+  pg
+  pry
+  pry-rails
+  puma
+  rack-livereload
+  rails (>= 5.0.0.1)
+  rails-assets-jquery-textcomplete!
+  rails-assets-normalize-css!
+  rails-i18n
+  rails_best_practices
+  rb-inotify!
+  rubocop
+  rubycritic
+  sassc-rails!
+  slim
+  spring
+  spring-watcher-listen
+  stlr
+  susy
+  traceroute
+  turbolinks
+  uglifier
+  web-console
+
+BUNDLED WITH
+   1.14.6
