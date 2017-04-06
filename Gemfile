@@ -52,7 +52,6 @@ group :development, :test do
   gem 'web-console'
 end
 
-
 group :production do
   gem 'autoprefixer-rails'
 end
